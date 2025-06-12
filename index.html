@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agence Créative</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    
+    <!-- SECTION NAVBAR -->
+    <nav class="navbar">
+      <div class="logo">No<span>va</span></div>
+      <input type="checkbox" id="menu-toggle">
+      <label for="menu-toggle" class="menu-icon">&#9776;</label>
+      <ul class="nav-links">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- SECTION ACCUEIL --> 
+  <section id="accueil" class="hero-section">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Agence Créative Nova</h1>
+      <p class="slogan">Donnons Vie à Vos Idées les Plus Audacieuses</p>
+    </div>
+  </section>
+
+<!-- SECTION SERVICES -->
+  <section id="services" class="services-section">
+    <h2>Nos Services</h2>
+    <p class="services-intro">Explorez notre palette de solutions créatives et stratégiques pour propulser votre marque vers de nouveaux sommets.</p>
+
+    <div class="services-boxes">
+      <div class="box">
+        <img src="assets/IdentiteVisuel.jpg" alt="Icône Identité Visuelle" class="service-icon">
+        <h3>Identité Visuelle</h3>
+        <p>De la conception de logo à l'univers graphique complet, nous donnons une âme à votre marque.</p>
+      </div>
+
+      <div class="box">
+        <img src="assets/WebDesign.jpg" alt="Icône Web Design" class="service-icon">
+        <h3>Web Design</h3>
+        <p>Des interfaces intuitives, responsives et esthétiques pour une expérience digitale unique.</p>
+      </div>
+
+      <div class="box">
+        <img src="assets/MotionDesign.jpg" alt="Icône Motion Design" class="service-icon">
+        <h3>Motion Design</h3>
+        <p>Des animations créatives pour dynamiser vos messages et captiver votre audience.</p>
+      </div>
+    </div>
+  </section>
+
+ <!-- SECTION CONTACT -->
+  <section id="contact" class="contact-section">
+    <h2>Contactez-nous</h2>
+    <p class="contact-intro">Une idée en tête ? Un projet à concrétiser ? Parlons-en !</p>
+    <form class="contact-form">
+      <input type="text" placeholder="Votre nom" required>
+      <input type="email" placeholder="Votre email" required>
+      <textarea placeholder="Votre message" required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  
+ <!-- SECTION FOOTER -->
+  <footer>
+    <p><a href="#">Mentions légales</a> | <a href="#">Politique de confidentialité</a></p>
+    <p>&copy; 2025 Nova. Tous droits réservés.</p>
+  </footer>
+</body>
+</html>
